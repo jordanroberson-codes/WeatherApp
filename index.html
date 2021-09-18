@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Bootstrap link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!--Font link header-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Font Link Body-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!--CSS link-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--font awesome-->
+    <script
+      src="https://kit.fontawesome.com/0d8577ba8e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--AXIOS LINK-->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <title>Wireframe Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <header class="mainHeader">What's The Weather?</header>
+        <br />
+        <h2>Today's Date</h2>
+        <br />
+        <!--Current Location Button-->
+        <br />
+        <button id="currentLocationButton">Current Location</button>
+        <!--End of Location Button-->
+        <h3 class="citySearchText">
+          <em>Search Your City Below</em>
+        </h3>
+
+        <div class="searchBar">
+          <form id="search-form">
+            <input
+              class="search"
+              type="text"
+              id="searchTextInput"
+              placeholder="Type in a city..."
+            />
+            <input
+              class="submit"
+              id="submit-button"
+              type="submit"
+              value="Let's Search!"
+            />
+          </form>
+        </div>
+        <!--TRIAL TABLE-->
+        <div class="mainBody">
+          <h2 id="currentLocation"></h2>
+          <br />
+
+          <h3 class="degree">
+            <span id="tempElement"> </span>
+            <span class="units">
+              <!-- <a href="#" id="fahrenheit-link">&deg;F</a>
+              |
+              <a href="#" id="celsius-link">&deg;C</a> -->
+              <br />
+              <small>Description: </small><span id="description"></span><br />
+              <small>Humidity: </small><span id="humidity"></span>%
+              <br />
+              <small> Wind: </small><span id="wind"></span> <small>mph</small>
+            </span>
+          </h3>
+          <table class="table">
+            <thead>
+              <tr class="days">
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+                <th scope="col">Saturday</th>
+                <th scope="col">Sunday</th>
+                <th scope="col">Monday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><i class="fas fa-cloud-rain rain"></i></th>
+                <td><i class="fas fa-sun sun"></i></td>
+                <td><i class="fas fa-sun sun"></i></td>
+                <td><i class="fas fa-sun sun"></i></td>
+                <td><i class="fas fa-sun sun"></i></td>
+              </tr>
+              <tr class="highTemp">
+                <th scope="row">84&deg;</th>
+                <td>84&deg;</td>
+                <td>86&deg;</td>
+                <td>83&deg;</td>
+                <td>90&deg;</td>
+              </tr>
+              <tr class="lowTemp">
+                <th scope="row">77&deg;</th>
+                <td>82&deg;</td>
+                <td>76&deg;</td>
+                <td>79&deg;</td>
+                <td>80&deg;</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!--END TRIAL TABLE-->
+          <br />
+        </div>
+      </div>
+    </div>
+    <div class="contactLinks">
+      <a
+        class="git"
+        href="https://github.com/jordanroberson-codes"
+        target="_blank"
+        ><i class="fab fa-github grow"></i
+      ></a>
+      <a
+        class="linkedIn"
+        href="https://www.linkedin.com/in/jordanrobersonnp/"
+        target="_blank"
+        ><i class="fab fa-linkedin grow"></i></i
+      ></a>
+    </div>
+    <script src="index.js"></script>
+  </body>
+  <footer>Coded by Jordan Roberson</footer>
+</html>

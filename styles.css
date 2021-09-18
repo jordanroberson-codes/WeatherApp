@@ -1,0 +1,189 @@
+/* MAIN */
+header {
+  font-size: 100px;
+  font-family: "Six Caps", sans-serif;
+  text-align: center;
+  top: 0;
+  padding-top: 10px;
+  bottom: 0;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+}
+
+h5 {
+  color: lightgrey;
+  background-color: black;
+  border-radius: 30px;
+  font-family: "Merriweather", serif;
+}
+
+footer {
+  text-align: center;
+}
+
+/*CLASSES*/
+
+.mainBody {
+  font-family: "Merriweather", serif;
+  font-weight: 400px;
+}
+
+.mainHeader {
+  font-weight: 600px;
+  text-transform: uppercase;
+  text-shadow: 5px 5px #6a7976;
+  font-size: 200px;
+}
+
+.searchBar {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  border-radius: 10px;
+}
+
+.search {
+  width: 300px;
+  height: 57px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 25px;
+  color: #6a7976;
+  border: 1px white;
+}
+
+.submit {
+  background-color: white;
+  color: #6a7976;
+  border: 1px white;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.submit:hover {
+  background-color: #6a7976;
+  color: white;
+  cursor: pointer;
+  border: 1px #6a7976;
+}
+
+.container {
+  border: 3px solid #afc4c0;
+  border-radius: 30px;
+  font-family: "Merriweather", serif;
+  background-color: #afc4c0;
+  width: 50%;
+}
+
+.row {
+  text-align: center;
+}
+
+.degree {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.col {
+  font-size: 30px;
+}
+
+.rain {
+  color: #4d6ef5;
+  font-size: 80px;
+}
+
+.sun {
+  color: rgb(255, 255, 111);
+  font-size: 80px;
+}
+
+/*Trial Table Settings*/
+.table {
+  text-align: center;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.days {
+  color: white;
+  font-size: 2vmin;
+}
+
+.highTemp {
+  color: white;
+  font-size: 40px;
+}
+
+.lowTemp {
+  color: white;
+  font-size: 40px;
+}
+
+.contactLinks {
+  text-align: center;
+  font-size: 40px;
+}
+
+.git {
+  color: #afc4c0;
+  transition: all 200ms ease-in-out;
+}
+
+.git:hover {
+  color: #6a7976;
+}
+
+.linkedIn {
+  color: #afc4c0;
+  transition: all 200ms ease-in-out;
+}
+
+.linkedIn:hover {
+  color: #6a7976;
+}
+
+.grow {
+  transition: all 200ms ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.5);
+}
+
+/* IDs */
+#currentLocationButton {
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  color: #6a7976;
+  border: 1px white;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+#currentLocation {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: white;
+  padding-top: 10px;
+  font-weight: bolder;
+  font-size: 40px;
+}
